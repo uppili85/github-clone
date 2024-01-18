@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.login-page{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 2px 0px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#github-logo{
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100px;
+    padding-bottom: 0%;
+
+}
+
+#heading{
+    color: rgb(178, 169, 169);
+    font-size: 9px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding-top: 0%;
+    text-decoration: solid;
+    font-weight: bold;
+    
+}
+
+.login-form{
+    
+    display: flex;
+    
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    height: 100%;
+    width: 200px;
+   
+    margin-left: 3%;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    box-shadow: 2px 2px white;
+    
+}
+
+#user,#password{
+    color:aliceblue;
+    font-size: 10px;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    padding-left: 11px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    
+}
+
+#user-form,#pass-form,#sign-btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#text-box,#pass-box,#btn{
+    border-radius: 3px;
+    border-color:1px solid whitesmoke;
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+
+
+
+
+
+#forget-pass{
+    font-size: 10px;
+    margin-left: 55%;
+    
+}
+#forget{
+    color:blue
+}
+
+#btn{
+    width: 85%;
+    background-color: rgb(29, 204, 29);
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid whitesmoke;
+    margin-bottom: 9%;
+    
+    cursor: pointer;
+    outline: none;
+    border-style: dotted;
+}
+
+#btn:active{
+    transform: scale(0.83);
+}
+
+.create-acnt{
+    border: 1px solid whitesmoke;
+    margin-top: 5%;
+    width: 190px;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 2px;
+    padding:0% 7px;
+    box-shadow: 2px 2px white;
+    
+}
+
+#cont{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 2%;
+    
+}
+
+#account{
+    color: blue;
+    font-size: 9px;
+    margin-top: 7%;
+    margin-left: 0%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    width: 200px;
+    margin-top: 20%;
+    margin-bottom: 5px;
+}
+
+#terms,#privacy,#security,#contact{
+    color: aliceblue;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+
